@@ -42,6 +42,8 @@ gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.9.1'
+gem 'carrierwave', '~> 1.2'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

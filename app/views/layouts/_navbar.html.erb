@@ -1,24 +1,6 @@
-<div class="navbar-wagon">
-  <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <img src="https://fontawesome.com/icons/cocktail?style=solid" alt="logo">
-  </a>
-
-    <!-- Profile picture with dropdown list -->
-    <div class="navbar-wagon-item">
-      <div class="dropdown">
-        <img src="https://kitt.lewagon.com/placeholder/users/grisreyesrios" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
-      </div>
-    </div>
-  </div>
-
-  <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-wagon-item hidden-md hidden-lg">
-    <div class="dropdown">
-      <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Search</a></li>
-        <li><a href="#">New Cocktail</a></li>
-      </ul>
-    </div>
+<div id="navbar">
+  <%= link_to "Cocktails Menu", root_path %>
+  <%= link_to(new_cocktail_path) do %>
+    <span id="new_cocktail">New Cocktail</span>
+  <% end %>
 </div>
