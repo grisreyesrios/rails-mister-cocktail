@@ -21,4 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+[![BCH compliance](https://bettercodehub.com/edge/badge/grisreyesrios/rails-mister-cocktail?branch=master)](https://bettercodehub.com/)
