@@ -1,24 +1,18 @@
-# README
+# Rails Mister Cocktail
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An App built in [Ruby on Rails](https://rubyonrails.org/) that allows you to create a Cocktails encyclopedia, your images are host in [Cloudinary](https://cloudinary.com/).
 
-Things you may want to cover:
+As well as parsing from a JSON file with over 160 ingredients to create fabulous recipes and have access to your favorite Cocktails any time you want.
 
-* Ruby version
+## Homepage, You can find it in [Heroku](https://mistercocktail-grisreyesrios.herokuapp.com/)
 
-* System dependencies
+<img src="https://user-images.githubusercontent.com/37979454/52751554-6618d400-2fb5-11e9-9d9a-9e85188281cd.png" width="90%"></img> 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+## Code Quality
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/grisreyesrios/rails-mister-cocktail?branch=master)](https://bettercodehub.com/)
+
+## License
+
+This repository is under the [MIT License](https://choosealicense.com/licenses/mit/)
+
